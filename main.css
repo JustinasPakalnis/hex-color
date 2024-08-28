@@ -1,0 +1,43 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  padding: 30px;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+  color: white;
+  border-radius: 20px;
+}
+span {
+  font-weight: bold;
+  border: 1px solid white;
+  padding: 5px 10px;
+}
+hr {
+  width: 100%;
+}
+button {
+  color: white;
+  background-color: rgb(141, 141, 141);
+  padding: 5px 10px;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: rgb(61, 61, 61);
+  cursor: pointer;
+}
